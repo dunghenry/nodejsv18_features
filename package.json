@@ -1,0 +1,26 @@
+{
+    "name": "nodejsv18_features",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "node --test --no-warnings --require ts-node/register __test__/sum.test.ts",
+        "build": "tsc",
+        "start": "nodemon --no-warnings --legacy-watch src/index.js",
+        "dev": "ts-node-dev --no-warnings src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.14",
+        "@types/node": "^18.11.9",
+        "nodemon": "^2.0.20",
+        "ts-node": "^10.9.1",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.9.3"
+    }
+}
